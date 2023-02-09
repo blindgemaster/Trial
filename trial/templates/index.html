@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Add Question</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2 class="text-center mb-3">Add Question</h2>
+      <form>
+        <div class="form-group">
+          <label for="question">Question:</label>
+          <input type="text" class="form-control" id="question" placeholder="Enter question">
+        </div>
+        <div class="form-group">
+          <label for="options">Options:</label>
+          <textarea class="form-control" id="options" rows="3" placeholder="Enter options separated by a new line"></textarea>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="allowAnswer">
+          <label class="form-check-label" for="allowAnswer">Allow users to provide an answer</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
